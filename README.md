@@ -13,4 +13,4 @@ This "solves" all of these issues.
 
 Using this template, you can serve a video (or video gallery) via github pages, and syncronize with supplied .srt files.
 
-To see in action visit: https://toborsnooks.github.io/yt-supersubs/test.html
+To see in action visit: https://toborsnooks.github.io/yt-supersubs/index.html
