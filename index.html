@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Supersubs Samples</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+        }
+        h1 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        li {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+        li a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        li a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            font-size: 0.9em;
+            margin-top: 40px;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 1.6em;
+            }
+            p, li {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>YouTube Supersubs Samples</h1>
+    </header>
+    
+    <main>
+        <p>This is a demo gallery of embedding YouTube videos, and augmenting them by adding custom-made subtitles via machine translation. The following links all display the same video, but with subtitles in different languages.</p>
+        <p>The model that I'm using (Hugging Face’s MarianMT) can theoretically translate into 1,000+ languages. They may vary in quality. Additionally, they depend on the quality of the original subtitle file.</p>
+        
+        <h2>Sample Pages:</h2>
+        <ul>
+            <li><a href="https://toborsnooks.github.io/yt-supersubs/test-en.html" target="_blank">English (Proof of concept, shows how it works)</a></li>
+            <li><a href="https://toborsnooks.github.io/yt-supersubs/test-fr.html" target="_blank">French</a></li>
+            <li><a href="https://toborsnooks.github.io/yt-supersubs/test-ar.html" target="_blank">Arabic</a></li>
+        </ul>
+
+        <p><strong>Coders:</strong> Pull requests are welcome, it'd be nice to have actual gallery pages, maybe even with collapsible sections based on topic/focus.</p>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 YouTube Supersubs Project. All rights reserved.</p>
+    </footer>
+</body>
+</html>
