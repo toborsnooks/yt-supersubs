@@ -1,6 +1,7 @@
 # yt-supersubs
 Simple proof of concept for adding custom .srt files to play in sync with embedded youtube videos
 
+Screenshot:
 <img width="865" alt="yt-supersubs" src="https://github.com/user-attachments/assets/87237521-6206-4d0c-9a27-1473c5312c79" />
 
 Youtube discontinued community contributed subtitles in 2020.
@@ -11,3 +12,5 @@ There is a URL scheme to pass params to try and set existing subtitles, but it c
 This "solves" all of these issues.
 
 Using this template, you can serve a video (or video gallery) via github pages, and syncronize with supplied .srt files.
+
+To see in action visit: https://toborsnooks.github.io/yt-supersubs/test.html
