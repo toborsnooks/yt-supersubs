@@ -1,0 +1,607 @@
+1
+00:00:00,001 --> 00:00:04,000
+La question la plus fréquente que nous recevons est comment réparer mon changement de vitesse ?
+
+2
+00:00:04,000 --> 00:00:08,000
+Peut-être qu'il n'atteint pas tous les pignons ou peut-être qu'il fait toutes sortes de bruits.
+
+3
+00:00:08,000 --> 00:00:20,000
+Quel que soit le problème, et indépendamment de la marque ou du modèle, cette vidéo sur les réglages mécaniques du dérailleur arrière vous aidera à ajuster votre changement de vitesse pour une performance optimale.
+
+4
+00:00:20,000 --> 00:00:28,000
+Calvin Jones ici, Park Tool Company. Nous espérons que cette vidéo vous donnera une toute nouvelle perspective sur le changement de vitesse de votre vélo.
+
+5
+00:00:28,000 --> 00:00:32,000
+Et avant de commencer, voici un aperçu rapide des composants et des procédures.
+
+6
+00:00:32,000 --> 00:00:37,000
+Le dérailleur arrière est le mécanisme qui déplace la chaîne sur les pignons arrière.
+
+7
+00:00:37,000 --> 00:00:42,000
+Le dérailleur est relié au levier de vitesse par un câble qui passe à travers une gaine.
+
+8
+00:00:42,000 --> 00:00:49,000
+Les vélos utilisent généralement un levier de vitesse indexé qui déplace le câble par petits incréments prédéterminés à chaque clic.
+
+9
+00:00:50,000 --> 00:01:00,000
+À l'intérieur du corps du dérailleur se trouve un ressort qui tire constamment le dérailleur vers l'extérieur, et notre câble maintient constamment une tension contre ce ressort dans diverses positions de changement de vitesse.
+
+10
+00:01:00,000 --> 00:01:08,000
+Les dérailleurs sont équipés de vis de butée qui empêchent le dérailleur de se déplacer trop loin vers l'intérieur et trop loin vers l'extérieur.
+
+11
+00:01:08,000 --> 00:01:13,000
+Ici, nous pouvons réellement voir la vis de butée arrêtant le mécanisme à chaque extrémité.
+
+12
+00:01:15,000 --> 00:01:21,000
+La fonction des vis de butée est d'empêcher la chaîne d'aller dans les rayons ou dans le cadre.
+
+13
+00:01:21,000 --> 00:01:27,000
+Notre première procédure sera de régler la vis de butée H, et après cela, nous passerons à l'indexation.
+
+14
+00:01:27,000 --> 00:01:34,000
+L'indexation est le processus d'alignement de notre galet guide avec les pignons afin que chaque changement de vitesse s'aligne avec chaque pignon.
+
+15
+00:01:34,000 --> 00:01:44,000
+Le barillet de réglage, situé ici, au niveau du levier de vitesse, nous permet de déplacer les incréments de changement comme illustré.
+
+16
+00:01:52,000 --> 00:01:56,000
+Après l'indexation, nous réglerons notre autre vis de butée.
+
+17
+00:01:56,000 --> 00:02:00,000
+Ensuite, nous vérifierons notre réglage de la vis B, et nous en expliquerons davantage plus tard.
+
+18
+00:02:00,000 --> 00:02:06,000
+Pour l'instant, prenez simplement vos outils, qui sont un tournevis ou une clé hexagonale, pour les vis de butée,
+
+19
+00:02:06,000 --> 00:02:11,000
+et un pied de réparation ou un moyen de maintenir votre vélo debout pour que nous puissions pédaler et vérifier ces réglages.
+
+20
+00:02:11,000 --> 00:02:13,000
+Commençons.
+
+21
+00:02:15,000 --> 00:02:18,000
+Maintenant, nous allons passer au réglage de la vis de butée H.
+
+22
+00:02:18,000 --> 00:02:23,000
+Notre objectif sera de l'ajuster aussi près que possible de ce pignon intérieur.
+
+23
+00:02:23,000 --> 00:02:29,000
+Parfois, les vis de butée ne sont pas marquées, et nous vous montrerons comment identifier lesquelles sont lesquelles un peu plus tard.
+
+24
+00:02:29,000 --> 00:02:36,000
+Nous commençons par une vérification visuelle de la patte de dérailleur, et si elle est clairement tordue, les choses ne fonctionneront pas bien,
+
+25
+00:02:36,000 --> 00:02:39,000
+et vous devriez regarder cette autre vidéo sur l'alignement de la patte.
+
+26
+00:02:40,000 --> 00:02:45,000
+Si le vélo a plusieurs plateaux avant, placez le dérailleur avant sur le plus grand.
+
+27
+00:02:45,000 --> 00:02:48,000
+Placez le dérailleur arrière sur le plus petit pignon.
+
+28
+00:02:48,000 --> 00:02:54,000
+Même si vous êtes déjà sur le plus petit pignon, continuez à cliquer jusqu'à ce qu'il n'y ait plus de clics.
+
+29
+00:02:54,000 --> 00:02:58,000
+Cela garantit que notre levier de vitesse est complètement actionné vers l'extérieur.
+
+30
+00:02:58,000 --> 00:03:01,000
+Si la chaîne ne se déplace pas vers le plus petit pignon,
+
+31
+00:03:01,000 --> 00:03:08,000
+elle est probablement arrêtée soit par la vis de butée, soit par la position du levier.
+
+32
+00:03:09,000 --> 00:03:13,000
+D'abord, tournez la vis de butée H dans le sens antihoraire de quelques tours.
+
+33
+00:03:13,000 --> 00:03:16,000
+Pédalez et voyez si cela permet le changement vers l'extérieur.
+
+34
+00:03:16,000 --> 00:03:23,000
+S'il ne change pas vers l'extérieur, tournez le barillet de réglage dans le sens horaire de quelques rotations.
+
+35
+00:03:23,000 --> 00:03:29,000
+Pédalez pour voir s'il change de vitesse.
+
+36
+00:03:29,000 --> 00:03:37,000
+Maintenant, tout le monde est sur le plus petit pignon, et nous n'avons plus de clics à notre levier.
+
+37
+00:03:37,000 --> 00:03:42,000
+Maintenant, même si vous venez de faire cela, tournez le barillet de réglage dans le sens horaire de quelques tours.
+
+38
+00:03:42,000 --> 00:03:47,000
+S'il y a un barillet de réglage situé au niveau du levier, il remplit exactement la même fonction.
+
+39
+00:03:47,000 --> 00:03:52,000
+Tourner l'un ou l'autre dans le sens horaire de quelques tours ajoute du mou au câble.
+
+40
+00:03:52,000 --> 00:03:58,000
+Et cela nous évite de confondre notre position de changement avec nos réglages de vis de butée.
+
+41
+00:03:58,000 --> 00:04:02,000
+Les gens confondent souvent ces deux choses, alors voici une explication rapide.
+
+42
+00:04:04,000 --> 00:04:08,000
+Nous sommes actuellement sur la position de changement la plus extérieure, et même si les choses semblent alignées,
+
+43
+00:04:08,000 --> 00:04:13,000
+la vis de butée pourrait être réglée pour arrêter le dérailleur ici, ici, ou elle pourrait être correcte.
+
+44
+00:04:13,000 --> 00:04:17,000
+Nous ne le saurons pas avant d'avoir éliminé notre position de changement de l'équation.
+
+45
+00:04:17,000 --> 00:04:22,000
+Il y a plusieurs façons de faire cela, mais le plus facile est de tourner le barillet de réglage dans le sens horaire.
+
+46
+00:04:22,000 --> 00:04:26,000
+Nous nous rappelons que cela déplace collectivement les positions de changement vers l'extérieur.
+
+47
+00:04:26,000 --> 00:04:32,000
+Maintenant, nous pourrons régler notre vis de butée sans la confondre avec notre position de changement.
+
+48
+00:04:33,000 --> 00:04:36,000
+Nous sommes maintenant prêts à régler la vis H.
+
+49
+00:04:36,000 --> 00:04:41,000
+Si vous ne pouvez pas dire quelle vis de butée est la vis H, choisissez-en une et tournez-la dans un sens et dans l'autre tout en observant le dérailleur.
+
+50
+00:04:41,000 --> 00:04:45,000
+Si le dérailleur ne bouge pas, essayez l'autre.
+
+51
+00:04:45,000 --> 00:04:48,000
+La vis de butée H provoquera un mouvement.
+
+52
+00:04:48,000 --> 00:04:54,000
+Nous allons trouver le bon réglage en la serrant délibérément trop.
+
+53
+00:04:54,000 --> 00:04:58,000
+Ensuite, nous la desserrerons légèrement jusqu'à ce qu'elle soit parfaite.
+
+54
+00:04:58,000 --> 00:05:02,000
+Prenez donc votre tournevis et serrez la vis H d'un demi-tour.
+
+55
+00:05:02,000 --> 00:05:08,000
+Maintenant, au lieu de simplement vérifier si elle est trop serrée, nous allons également écouter pour détecter un bruit excessif pendant le pédalage.
+
+56
+00:05:08,000 --> 00:05:15,000
+Et si le dérailleur avant fait du bruit, faites de votre mieux pour l'ignorer pour l'instant, ou trouvez la solution dans cette autre vidéo.
+
+57
+00:05:15,000 --> 00:05:22,000
+De retour sur les pignons arrière, nous entendons un bruit normal pour ce vélo, ce qui nous indique qu'une vis de butée n'est pas encore trop serrée.
+
+58
+00:05:22,000 --> 00:05:25,000
+Nous serrons à nouveau la vis d'un demi-tour.
+
+59
+00:05:29,000 --> 00:05:35,000
+Maintenant, nous entendons un bruit excessif et nous vérifierons qu'il provient bien de la chaîne frottant contre le pignon suivant vers l'intérieur.
+
+60
+00:05:35,000 --> 00:05:40,000
+Si c'est le cas, la vis de butée est trop serrée, ce que nous voulons pour l'instant.
+
+61
+00:05:40,000 --> 00:05:43,000
+Au fait, cela n'endommage pas du tout votre transmission.
+
+62
+00:05:43,000 --> 00:05:49,000
+Dans certains cas, une vis de butée trop serrée peut provoquer un changement vers le pignon suivant.
+
+63
+00:05:49,000 --> 00:05:54,000
+Desserrez cette vis de butée jusqu'à ce qu'elle revienne et crée un bruit excessif.
+
+64
+00:05:55,000 --> 00:06:02,000
+Une fois que nous entendons le bruit excessif, nous commençons à desserrer d'un quart de tour à la fois jusqu'à ce que le bruit disparaisse.
+
+65
+00:06:22,000 --> 00:06:27,000
+S'il y a deux réglages qui semblent également silencieux, optez pour le plus serré des deux.
+
+66
+00:06:27,000 --> 00:06:31,000
+La butée H est maintenant réglée.
+
+67
+00:06:31,000 --> 00:06:35,000
+Maintenant, nous allons tourner le barillet de réglage dans le sens antihoraire de quelques tours.
+
+68
+00:06:35,000 --> 00:06:41,000
+Nous le ramenons approximativement à sa position initiale, et ne vous inquiétez pas, il n'est pas nécessaire d'être précis pour l'instant.
+
+69
+00:06:41,000 --> 00:06:47,000
+Quant à l'autre vis de butée, la vis L, nous attendrons de l'ajuster jusqu'à ce que l'indexation soit réglée.
+
+70
+00:06:51,000 --> 00:06:56,000
+Plus tôt, nous avons expliqué que le processus d'indexation consiste à aligner le galet guide avec les pignons,
+
+71
+00:06:56,000 --> 00:07:01,000
+afin que chaque changement incrémentiel s'aligne avec chaque pignon.
+
+72
+00:07:01,000 --> 00:07:07,000
+Encore une fois, le barillet de réglage nous permet de faire ces ajustements.
+
+73
+00:07:07,000 --> 00:07:19,000
+Une note rapide est qu'il existe une plage de réglage acceptable,
+
+74
+00:07:19,000 --> 00:07:25,000
+ce qui signifie qu'il peut y avoir plus d'une position du barillet de réglage qui donne de bonnes performances de changement.
+
+75
+00:07:25,000 --> 00:07:29,000
+S'il y a deux plateaux avant, restez sur le plus grand.
+
+76
+00:07:29,000 --> 00:07:32,000
+S'il y a trois plateaux avant, passez au plateau du milieu.
+
+77
+00:07:32,000 --> 00:07:36,000
+À l'arrière, nous commençons sur le plus petit pignon.
+
+78
+00:07:36,000 --> 00:07:44,000
+En pédalant à une cadence de conduite normale, actionnez le levier arrière d'un seul clic d'indexation, pas plus d'un clic.
+
+79
+00:07:44,000 --> 00:07:48,000
+Notez que certains leviers sont conçus pour cliquer plusieurs fois avec une seule pression sur le levier,
+
+80
+00:07:48,000 --> 00:07:52,000
+alors poussez légèrement le levier jusqu'à ce que vous entendiez un clic.
+
+81
+00:07:52,000 --> 00:07:58,000
+Nous avons besoin de ce clic unique pour changer une et une seule vitesse.
+
+82
+00:07:58,000 --> 00:08:02,000
+Si la chaîne n'a pas atteint le pignon suivant,
+
+83
+00:08:02,000 --> 00:08:06,000
+remettez le levier de vitesse au clic le plus extérieur.
+
+84
+00:08:06,000 --> 00:08:11,000
+Tournez le barillet de réglage d'un tour complet dans le sens antihoraire.
+
+85
+00:08:13,000 --> 00:08:19,000
+Essayez à nouveau le changement. Répétez jusqu'à ce qu'il effectue le changement.
+
+86
+00:08:19,000 --> 00:08:26,000
+Si vous avez dévissé le barillet de réglage au point qu'il est sorti ou presque sorti,
+
+87
+00:08:26,000 --> 00:08:32,000
+revissez complètement le barillet puis ressortez-le d'un ou deux tours.
+
+88
+00:08:32,000 --> 00:08:40,000
+Assurez-vous que vous êtes sur la position de changement la plus extérieure et le plus petit pignon.
+
+89
+00:08:40,000 --> 00:08:44,000
+Ensuite, éliminez le mou du câble au niveau du boulon de pincement.
+
+90
+00:08:44,000 --> 00:08:59,000
+Dans ce scénario différent, un clic au levier fait passer deux pignons.
+
+91
+00:08:59,000 --> 00:09:04,000
+Revenez au premier pignon
+
+92
+00:09:04,000 --> 00:09:09,000
+et tournez le barillet de réglage dans le sens horaire et essayez à nouveau le changement.
+
+93
+00:09:09,000 --> 00:09:20,000
+Maintenant que notre chaîne est sur le deuxième pignon après un clic, le changement de vitesse peut être affiné.
+
+94
+00:09:20,000 --> 00:09:24,000
+Ce que nous allons faire, c'est délibérément tourner le barillet de réglage dans le sens antihoraire
+
+95
+00:09:24,000 --> 00:09:30,000
+jusqu'à ce que nous soyons clairement en dehors de la plage acceptable, puis revenir lentement.
+
+96
+00:09:30,000 --> 00:09:34,000
+Comme pour la vis de butée, un bruit excessif est notre indicateur.
+
+97
+00:09:34,000 --> 00:09:38,000
+S'il n'y a pas déjà de bruit excessif pendant le pédalage,
+
+98
+00:09:38,000 --> 00:09:42,000
+tournez le barillet de réglage dans le sens antihoraire jusqu'à ce que vous l'entendiez.
+
+99
+00:09:42,000 --> 00:09:54,000
+Une fois que nous entendons un bruit excessif, nous savons que nous sommes en dehors de la plage de réglage acceptable.
+
+100
+00:09:54,000 --> 00:10:01,000
+Maintenant, vérifiez que la source du bruit excessif provient bien de la chaîne frappant le pignon suivant vers l'intérieur.
+
+101
+00:10:01,000 --> 00:10:07,000
+Ensuite, tournez le barillet de réglage dans le sens horaire d'un quart de tour et vérifiez à nouveau le bruit.
+
+102
+00:10:08,000 --> 00:10:11,000
+Répétez jusqu'à ce que le bruit disparaisse.
+
+103
+00:10:11,000 --> 00:10:25,000
+Bien que ce soit un réglage adéquat pour ce pignon, nous devons maintenant vérifier les autres pignons un par un.
+
+104
+00:10:25,000 --> 00:10:30,000
+Changez et écoutez à chaque position pour détecter tout bruit excessif.
+
+105
+00:10:31,000 --> 00:10:43,000
+Si vous entendez du bruit sur un pignon, tournez le barillet de réglage dans le sens horaire d'un quart de tour.
+
+106
+00:10:43,000 --> 00:10:47,000
+Testez à nouveau le changement vers ce pignon.
+
+107
+00:10:47,000 --> 00:10:55,000
+Répétez et continuez à vérifier jusqu'à ce que nous trouvions les réglages du barillet qui permettent un bon changement sur chaque pignon arrière,
+
+108
+00:10:55,000 --> 00:10:58,000
+à l'exception du plus grand pignon.
+
+109
+00:10:58,000 --> 00:11:01,000
+Le changement vers le plus grand pignon sera fait plus tard.
+
+110
+00:11:01,000 --> 00:11:11,000
+Maintenant, changez vers l'extérieur un pignon à la fois, en vérifiant à nouveau qu'il n'y a pas de bruit excessif une fois que la chaîne est sur le pignon.
+
+111
+00:11:11,000 --> 00:11:21,000
+Cependant, si le changement est lent en allant vers l'extérieur, cela peut être amélioré par un autre quart de tour dans le sens horaire au niveau du barillet.
+
+112
+00:11:24,000 --> 00:11:30,000
+Notre indexation est maintenant correctement réglée et il est temps de passer au réglage de la vis de butée L.
+
+113
+00:11:30,000 --> 00:11:42,000
+Comme pour le réglage de la vis H, nous serrons trop la vis L, puis nous la desserrons légèrement jusqu'à ce qu'elle soit parfaite.
+
+114
+00:11:42,000 --> 00:11:49,000
+Cela offre la meilleure protection contre le dérailleur qui ferait passer la chaîne au-delà du plus grand pignon et dans les rayons.
+
+115
+00:11:49,000 --> 00:11:53,000
+Déplacez la chaîne sur le plateau suivant le plus grand à l'avant.
+
+116
+00:11:54,000 --> 00:11:57,000
+Passez au deuxième plus grand pignon à l'arrière.
+
+117
+00:11:57,000 --> 00:12:05,000
+Ensuite, nous devons déterminer où se trouve notre vis de butée. Est-elle déjà trop serrée ? Est-elle beaucoup trop lâche ?
+
+118
+00:12:05,000 --> 00:12:08,000
+Passez au plus grand pignon pour le savoir.
+
+119
+00:12:08,000 --> 00:12:19,000
+Si la chaîne ne fait pas le changement, alors la vis L est déjà trop serrée et c'est ce que nous voulons pour l'instant.
+
+120
+00:12:19,000 --> 00:12:27,000
+Si la chaîne passe lentement au plus grand pignon, c'est également un symptôme d'une vis L trop serrée.
+
+121
+00:12:27,000 --> 00:12:37,000
+S'il y a un bruit excessif une fois sur le plus grand pignon, encore une fois la vis L est trop serrée et encore une fois c'est ce que nous voulons pour l'instant.
+
+122
+00:12:37,000 --> 00:12:43,000
+Cependant, s'il fait un changement acceptable sans bruit excessif, notre vis L n'est pas trop serrée.
+
+123
+00:12:43,000 --> 00:12:51,000
+Nous tournons le dérailleur d'un clic vers l'extérieur, serrons la vis L d'un demi-tour et essayons à nouveau le changement.
+
+124
+00:12:51,000 --> 00:12:55,000
+Répétez jusqu'à ce qu'il y ait des symptômes.
+
+125
+00:13:12,000 --> 00:13:18,000
+Maintenant que la vis L trop serrée cause des symptômes, nous allons la desserrer progressivement jusqu'à ce qu'elle soit correctement réglée.
+
+126
+00:13:18,000 --> 00:13:23,000
+Desserrez la vis L d'un quart de tour et changez pour voir si les symptômes ont disparu.
+
+127
+00:13:23,000 --> 00:13:34,000
+Répétez jusqu'à ce qu'elle change rapidement et roule sur le plus grand pignon sans bruit excessif.
+
+128
+00:13:34,000 --> 00:13:39,000
+La butée L est maintenant réglée.
+
+129
+00:13:40,000 --> 00:13:43,000
+Pour vérifier, mettez une pression supplémentaire sur le levier.
+
+130
+00:13:43,000 --> 00:13:47,000
+Regardez au niveau du dérailleur arrière. La chape ne devrait pas bouger vers l'intérieur.
+
+131
+00:13:47,000 --> 00:14:05,000
+La plupart des dérailleurs ont une forme de réglage pour l'espacement du galet guide par rapport aux pignons.
+
+132
+00:14:05,000 --> 00:14:10,000
+Cet espacement est contrôlé par la vis B, B pour vis d'angle de corps.
+
+133
+00:14:10,000 --> 00:14:16,000
+Ce réglage est vérifié lorsque la chaîne est sur le plus petit plateau à l'avant et le plus grand pignon à l'arrière.
+
+134
+00:14:16,000 --> 00:14:21,000
+La majorité des dérailleurs de route et de VTT nécessitent un écart entre 5 et 6 millimètres.
+
+135
+00:14:21,000 --> 00:14:24,000
+Utilisez une clé hexagonale pour mesurer cette distance.
+
+136
+00:14:24,000 --> 00:14:28,000
+Il y a quelques exceptions, alors consultez les spécifications du fabricant.
+
+137
+00:14:28,000 --> 00:14:30,000
+Mais ne vous inquiétez pas trop de cela.
+
+138
+00:14:30,000 --> 00:14:34,000
+Si le vélo change bien les vitesses, la vis B est correctement réglée.
+
+139
+00:14:35,000 --> 00:14:38,000
+Pour augmenter cet écart, serrez la vis B.
+
+140
+00:14:38,000 --> 00:14:47,000
+Pour diminuer l'écart, desserrez la vis B.
+
+141
+00:14:47,000 --> 00:14:56,000
+Si vous avez apporté des modifications importantes à la vis B, vérifiez à nouveau le réglage de l'indexation.
+
+142
+00:14:56,000 --> 00:15:02,000
+Sinon, vous avez terminé et votre dérailleur est correctement réglé.
+
+143
+00:15:03,000 --> 00:15:07,000
+Ce sont les étapes de base pour régler le changement de vitesse arrière.
+
+144
+00:15:07,000 --> 00:15:14,000
+Le vélo devrait également être testé en roulant car les contraintes exercées sur la transmission lors de la conduite sont différentes de celles lorsque le vélo est sur un pied de réparation.
+
+145
+00:15:14,000 --> 00:15:21,000
+Si des symptômes comme un changement lent ou un bruit excessif apparaissent, suivez les mêmes directives que celles discutées dans la vidéo.
+
+146
+00:15:21,000 --> 00:15:26,000
+Vous devrez peut-être changer le barillet de réglage ou la vis de butée d'un autre quart de tour.
+
+147
+00:15:26,000 --> 00:15:35,000
+De plus, si vous avez suivi ces étapes et que quelque chose ne semblait pas tout à fait correct, consultez notre vidéo sur le dépannage avancé et le réglage du dérailleur arrière.
+
+148
+00:15:35,000 --> 00:15:41,000
+Et enfin, assurez-vous de consulter cette vidéo pour un aperçu de tout notre contenu sur les dérailleurs et le changement de vitesse.
+
+149
+00:15:41,000 --> 00:15:45,000
+C'est tout pour le réglage du changement de vitesse.
+
+150
+00:15:45,000 --> 00:15:50,000
+Si vous avez trouvé cela utile, donnez un pouce vers le haut et partagez-le avec vos amis.
+
+151
+00:15:50,000 --> 00:15:56,000
+Cela nous aide vraiment à vous fournir du contenu et cela me garde enfermé ici dans le studio.
+
+152
+00:15:56,000 --> 00:16:00,000
+C'est tout. On se retrouve dans notre prochaine vidéo d'aide à la réparation.
