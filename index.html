@@ -67,17 +67,16 @@
     </header>
     
     <main>
-        <p>This is a demo gallery of embedding YouTube videos, and augmenting them by adding custom-made subtitles via machine translation. The following links all display the same video, but with subtitles in different languages.</p>
-        <p>The model that I'm using (Hugging Face’s MarianMT) can theoretically translate into 1,000+ languages. They may vary in quality. Additionally, they depend on the quality of the original subtitle file.</p>
-        
+        <p>This is a demo gallery of embedding YouTube videos, and augmenting them with additional subtitles that may or may not be available on YouTube proper. YouTube shut down community contributed translations in 2020, so this is a workaround. 
+        The following links all display the same video, but with subtitles in different languages.</p>
+        <p>The pipeline here is OpenAI Whisper -> .srt file -> Hugging Face MarianMT -> translated .srt</p>
         <h2>Sample Pages:</h2>
         <ul>
             <li><a href="https://toborsnooks.github.io/yt-supersubs/test.html" target="_blank">English (Proof of concept, shows how it works)</a></li>
             <li><a href="https://toborsnooks.github.io/yt-supersubs/test-fr.html" target="_blank">French</a></li>
             <li><a href="https://toborsnooks.github.io/yt-supersubs/test-ar.html" target="_blank">Arabic</a></li>
+            <li><a href="https://toborsnooks.github.io/yt-supersubs/sidebar-test-ar.html" target="_blank">Arabic "playlist" with sidebar and subtitle size adjustment cycle</a></li>
         </ul>
-
-        <p><strong>Coders:</strong> Pull requests are welcome, it'd be nice to have actual gallery pages, maybe even with collapsible sections based on topic/focus.</p>
     </main>
 
 </body>
