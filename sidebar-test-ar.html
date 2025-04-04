@@ -3,40 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>قائمة تشغيل Derailleur العربية</title>
+    <title>YouTube Video with Custom Subtitles</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
-            display: flex;
-            flex-direction: column;
+            padding: 0;
             max-width: 1200px;
             margin: 0 auto;
         }
         
         h1 {
-            margin-bottom: 20px;
+            margin: 20px;
         }
         
         .main-container {
             display: flex;
-            gap: 20px;
+            position: relative;
         }
         
         #sidebar {
-            width: 250px;
+            width: 200px;
             background-color: #f8f8f8;
             padding: 15px;
-            border-radius: 5px;
-            flex-shrink: 0;
+            height: calc(100vh - 100px);
+            position: relative;
+            transition: transform 0.3s ease;
+            border-right: 1px solid #ddd;
+        }
+        
+        .sidebar-hidden #sidebar {
+            transform: translateX(-200px);
+        }
+        
+        #hamburger {
+            position: absolute;
+            top: 10px;
+            right: -40px;
+            background-color: #f8f8f8;
+            border: 1px solid #ddd;
+            border-left: none;
+            padding: 8px 10px;
+            cursor: pointer;
+            font-size: 18px;
+            border-radius: 0 5px 5px 0;
         }
         
         .video-item {
-            margin-bottom: 15px;
+            margin-bottom: 10px;
             cursor: pointer;
-            padding: 10px;
-            border-radius: 5px;
+            padding: 8px;
+            border-radius: 3px;
             transition: background-color 0.2s;
         }
         
@@ -44,19 +61,14 @@
             background-color: #e0e0e0;
         }
         
-        .video-item img {
-            width: 100%;
-            border-radius: 3px;
-            margin-bottom: 5px;
-        }
-        
-        .video-item p {
-            margin: 5px 0;
-            font-size: 14px;
-        }
-        
         .content-container {
             flex-grow: 1;
+            padding: 20px;
+            transition: margin-left 0.3s ease;
+        }
+        
+        .sidebar-hidden .content-container {
+            margin-left: -200px;
         }
         
         #video-container {
@@ -67,7 +79,7 @@
         .subtitle-wrapper {
             display: flex;
             align-items: center;
-            gap: 15px;
+            gap: 10px;
         }
         
         #subtitle-container {
@@ -104,17 +116,16 @@
     </style>
 </head>
 <body>
-    <h1>قائمة تشغيل Derailleur العربية (Arabic derailleur playlist)</h1>
+    <h1>YouTube Video with Custom Subtitles</h1>
     
     <div class="main-container">
         <div id="sidebar">
-            <div class="video-item" data-video-id="UkZxPIZ1ngY" data-subtitle-file="UkZxPIZ1ngY-ar.srt">
-                <img src="https://img.youtube.com/vi/UkZxPIZ1ngY/mqdefault.jpg" alt="Video Thumbnail">
-                <p>First Video</p>
+            <button id="hamburger">☰</button>
+            <div class="video-item" data-video-id="UkZxPIZ1ngY" data-subtitle-file="UkZxPIZ1ngY-en.srt">
+                First Video Title
             </div>
-            <div class="video-item" data-video-id="ZNG7g83lI-s" data-subtitle-file="ZNG7g83lI-s-ar.srt">
-                <img src="https://img.youtube.com/vi/ZNG7g83lI-s/mqdefault.jpg" alt="Video Thumbnail">
-                <p>Second Video</p>
+            <div class="video-item" data-video-id="ZNG7g83lI-s" data-subtitle-file="ZNG7g83lI-s-en.srt">
+                Second Video Title
             </div>
         </div>
         
@@ -149,6 +160,11 @@
                 const subtitleFile = this.getAttribute('data-subtitle-file');
                 loadNewVideo(videoId, subtitleFile);
             });
+        });
+        
+        // Set up hamburger menu toggle
+        document.getElementById('hamburger').addEventListener('click', function() {
+            document.querySelector('.main-container').classList.toggle('sidebar-hidden');
         });
         
         // Set up text size button
