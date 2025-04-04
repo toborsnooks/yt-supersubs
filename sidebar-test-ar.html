@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>قائمة تشغيل Derailleur العربية</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            margin-bottom: 20px;
+        }
+        
+        .main-container {
+            display: flex;
+            gap: 20px;
+        }
+        
+        #sidebar {
+            width: 250px;
+            background-color: #f8f8f8;
+            padding: 15px;
+            border-radius: 5px;
+            flex-shrink: 0;
+        }
+        
+        .video-item {
+            margin-bottom: 15px;
+            cursor: pointer;
+            padding: 10px;
+            border-radius: 5px;
+            transition: background-color 0.2s;
+        }
+        
+        .video-item:hover {
+            background-color: #e0e0e0;
+        }
+        
+        .video-item img {
+            width: 100%;
+            border-radius: 3px;
+            margin-bottom: 5px;
+        }
+        
+        .video-item p {
+            margin: 5px 0;
+            font-size: 14px;
+        }
+        
+        .content-container {
+            flex-grow: 1;
+        }
+        
+        #video-container {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        
+        .subtitle-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        #subtitle-container {
+            background-color: #f0f0f0;
+            padding: 15px;
+            border-radius: 5px;
+            min-height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-size: 18px;
+            flex-grow: 1;
+            width: 90%;
+        }
+        
+        #text-size-control {
+            background-color: #e0e0e0;
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            cursor: pointer;
+            font-size: 16px;
+            height: 60px;
+            width: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        #text-size-control:hover {
+            background-color: #d0d0d0;
+        }
+    </style>
+</head>
+<body>
+    <h1>قائمة تشغيل Derailleur العربية (Arabic derailleur playlist)</h1>
+    
+    <div class="main-container">
+        <div id="sidebar">
+            <div class="video-item" data-video-id="UkZxPIZ1ngY" data-subtitle-file="UkZxPIZ1ngY-ar.srt">
+                <img src="https://img.youtube.com/vi/UkZxPIZ1ngY/mqdefault.jpg" alt="Video Thumbnail">
+                <p>First Video</p>
+            </div>
+            <div class="video-item" data-video-id="ZNG7g83lI-s" data-subtitle-file="ZNG7g83lI-s-ar.srt">
+                <img src="https://img.youtube.com/vi/ZNG7g83lI-s/mqdefault.jpg" alt="Video Thumbnail">
+                <p>Second Video</p>
+            </div>
+        </div>
+        
+        <div class="content-container">
+            <div id="video-container">
+                <!-- YouTube iframe will be inserted here -->
+            </div>
+            
+            <div class="subtitle-wrapper">
+                <div id="subtitle-container">
+                    <p id="subtitle-text">Subtitles will appear here when the video plays...</p>
+                </div>
+                <button id="text-size-control">Aa</button>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // YouTube API code
+        let player;
+        let subtitles = [];
+        let currentSubtitleIndex = -1;
+        let checkInterval;
+        let currentFontSize = 18;
+        let currentVideoId = 'UkZxPIZ1ngY';
+        let currentSubtitleFile = 'UkZxPIZ1ngY-en.srt';
+        
+        // Set up event listeners for sidebar video items
+        document.querySelectorAll('.video-item').forEach(item => {
+            item.addEventListener('click', function() {
+                const videoId = this.getAttribute('data-video-id');
+                const subtitleFile = this.getAttribute('data-subtitle-file');
+                loadNewVideo(videoId, subtitleFile);
+            });
+        });
+        
+        // Set up text size button
+        document.getElementById('text-size-control').addEventListener('click', function() {
+            // Cycle through text sizes: 18px -> 22px -> 26px -> 18px
+            currentFontSize = (currentFontSize === 18) ? 22 : (currentFontSize === 22) ? 26 : 18;
+            document.getElementById('subtitle-text').style.fontSize = currentFontSize + 'px';
+        });
+        
+        // Load the YouTube IFrame API
+        const tag = document.createElement('script');
+        tag.src = "https://www.youtube.com/iframe_api";
+        const firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+        
+        // Create YouTube player when API is ready
+        function onYouTubeIframeAPIReady() {
+            player = new YT.Player('video-container', {
+                height: '450',
+                width: '100%',
+                videoId: currentVideoId,
+                playerVars: {
+                    'playsinline': 1,
+                    'modestbranding': 1
+                },
+                events: {
+                    'onReady': onPlayerReady,
+                    'onStateChange': onPlayerStateChange
+                }
+            });
+        }
+        
+        function onPlayerReady(event) {
+            // Load the initial SRT file
+            loadSubtitles(currentSubtitleFile);
+        }
+        
+        function onPlayerStateChange(event) {
+            if (event.data == YT.PlayerState.PLAYING) {
+                // Start checking for subtitles when video is playing
+                checkInterval = setInterval(checkTime, 100);
+            } else {
+                // Stop checking when video is paused or ended
+                clearInterval(checkInterval);
+            }
+        }
+        
+        function loadNewVideo(videoId, subtitleFile) {
+            // Clear current subtitle display
+            document.getElementById('subtitle-text').textContent = 'Loading subtitles...';
+            currentSubtitleIndex = -1;
+            subtitles = [];
+            
+            // Update current video tracking
+            currentVideoId = videoId;
+            currentSubtitleFile = subtitleFile;
+            
+            // Load the new video
+            if (player) {
+                player.loadVideoById(videoId);
+                // Load the corresponding subtitles
+                loadSubtitles(subtitleFile);
+            }
+        }
+        
+        function loadSubtitles(srtFile) {
+            fetch(srtFile)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('SRT file not found. Make sure it exists in the same directory as this HTML file.');
+                    }
+                    return response.text();
+                })
+                .then(data => {
+                    subtitles = parseSRT(data);
+                    console.log('Subtitles loaded:', subtitles.length);
+                })
+                .catch(error => {
+                    console.error('Error loading subtitles:', error);
+                    document.getElementById('subtitle-text').textContent = 
+                        'Error loading subtitles: ' + error.message;
+                });
+        }
+        
+        function parseSRT(srtContent) {
+            const srtItems = [];
+            const srtChunks = srtContent.trim().split('\n\n');
+            
+            for (const chunk of srtChunks) {
+                const lines = chunk.split('\n');
+                if (lines.length < 3) continue;
+                
+                // Skip the sequence number (lines[0])
+                const timeCode = lines[1];
+                const textLines = lines.slice(2);
+                
+                // Parse the time codes
+                const [startTime, endTime] = timeCode.split(' --> ').map(timeToSeconds);
+                
+                srtItems.push({
+                    startTime: startTime,
+                    endTime: endTime,
+                    text: textLines.join(' ')
+                });
+            }
+            
+            return srtItems;
+        }
+        
+        function timeToSeconds(timeString) {
+            const [hours, minutes, secondsAndMs] = timeString.split(':');
+            const [seconds, milliseconds] = secondsAndMs.split(',');
+            
+            return parseInt(hours) * 3600 + 
+                   parseInt(minutes) * 60 + 
+                   parseInt(seconds) + 
+                   parseInt(milliseconds) / 1000;
+        }
+        
+        function checkTime() {
+            if (!player || subtitles.length === 0) return;
+            
+            const currentTime = player.getCurrentTime();
+            let foundSubtitle = false;
+            
+            // Find the current subtitle based on the video time
+            for (let i = 0; i < subtitles.length; i++) {
+                if (currentTime >= subtitles[i].startTime && currentTime <= subtitles[i].endTime) {
+                    if (i !== currentSubtitleIndex) {
+                        // Update subtitle display only when it changes
+                        document.getElementById('subtitle-text').textContent = subtitles[i].text;
+                        currentSubtitleIndex = i;
+                    }
+                    foundSubtitle = true;
+                    break;
+                }
+            }
+            
+            // Clear subtitle text if no matching subtitle
+            if (!foundSubtitle && currentSubtitleIndex !== -1) {
+                document.getElementById('subtitle-text').textContent = '';
+                currentSubtitleIndex = -1;
+            }
+        }
+    </script>
+</body>
+</html>
